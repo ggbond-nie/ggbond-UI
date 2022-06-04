@@ -1,0 +1,154 @@
+@use './mixins//mixins.scss'as *;
+
+
+
+@font-face {
+    font-family: "g-ui-icons";
+    /* Project id 3446732 */
+    src: url('./fonts/iconfont.woff2') format('woff2'),
+        url('./fonts/iconfont.woff') format('woff'),
+        url('./fonts/iconfont.ttf') format('truetype');
+}
+
+// ^开始的字符串
+// 空格开头 只要匹配
+[class^='#{$namespace}-icon'],
+[class*='#{$namespace}-icon'] {
+    font-family: "g-ui-icons" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-iconhuangguan:before {
+    content: "\e600";
+}
+
+.#{$namespace}-icongouwu:before {
+    content: "\e601";
+}
+
+.#{$namespace}-icondianpu:before {
+    content: "\e602";
+}
+
+.#{$namespace}-iconxiala:before {
+    content: "\e603";
+}
+
+.#{$namespace}-iconxiangshangfanye:before {
+    content: "\e636";
+}
+
+.#{$namespace}-iconxiangxiafanye:before {
+    content: "\e633";
+}
+
+.#{$namespace}-iconzujian:before {
+    content: "\e657";
+}
+
+.#{$namespace}-iconjiajianzujianjiahao:before {
+    content: "\e64d";
+}
+
+.#{$namespace}-iconbiaodanzujian-biaoge:before {
+    content: "\eb94";
+}
+
+.#{$namespace}-iconbiaodanzujian-xialakuang:before {
+    content: "\eb95";
+}
+
+.#{$namespace}-iconbiaodanzujian-anniu:before {
+    content: "\eb96";
+}
+
+.#{$namespace}-icongongyezujian-zhishideng:before {
+    content: "\eb97";
+}
+
+.#{$namespace}-icongongyezujian-kaiguan:before {
+    content: "\eb98";
+}
+
+.#{$namespace}-iconzujian-huandengpian:before {
+    content: "\e604";
+}
+
+.#{$namespace}-iconzujian-dibudaohang:before {
+    content: "\e606";
+}
+
+.#{$namespace}-iconzujian-weixinjiafen:before {
+    content: "\e607";
+}
+
+.#{$namespace}-iconzujian-duoxuan:before {
+    content: "\e608";
+}
+
+.#{$namespace}-iconzujian-shengshiqu:before {
+    content: "\e609";
+}
+
+.#{$namespace}-iconzujian-nianyueri:before {
+    content: "\e60a";
+}
+
+.#{$namespace}-iconzujian-shoujihao:before {
+    content: "\e60b";
+}
+
+.#{$namespace}-iconzujian1:before {
+    content: "\e730";
+}
+
+.#{$namespace}-iconjisuanzujian:before {
+    content: "\e63a";
+}
+
+.#{$namespace}-iconkafkajieruzujian:before {
+    content: "\e6f3";
+}
+
+.#{$namespace}-iconOraclejieruzujian:before {
+    content: "\e6f4";
+}
+
+.#{$namespace}-iconfuwuzujian:before {
+    content: "\e63f";
+}
+
+.#{$namespace}-iconhuodongzujian-18:before {
+    content: "\e60c";
+}
+
+.#{$namespace}-iconhuodongzujian-21:before {
+    content: "\e60d";
+}
+
+.#{$namespace}-iconzujian-icon-10:before {
+    content: "\e605";
+}
+
+.#{$namespace}-iconzujian-icon-24:before {
+    content: "\e60e";
+}
+
+.#{$namespace}-iconzujian-icon-31:before {
+    content: "\e60f";
+}
+
+.#{$namespace}-icon05liuchengzujian:before {
+    content: "\e610";
+}
+
+.#{$namespace}-iconbiaotizujian:before {
+    content: "\e611";
+}
+
+.#{$namespace}-iconzujian2:before {
+    content: "\e652";
+}

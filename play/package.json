@@ -1,0 +1,15 @@
+{
+  "name": "@ggbond-ui/play",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "caab-ui": "1.0.1",
+    "vite": "^2.9.9"
+  }
+}

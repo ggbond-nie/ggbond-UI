@@ -1,0 +1,3 @@
+packages:
+  - 'packages/**' # 存放便携的组件的
+  - play

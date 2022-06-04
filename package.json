@@ -1,0 +1,40 @@
+{
+  "name": "ggbond-ui",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "gulp  -f  build/gulpfile.ts",
+    "publish": "pnpm -C dist npm publish"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-autoprefixer": "0.0.33",
+    "@types/gulp-clean-css": "^4.3.0",
+    "@types/gulp-sass": "^5.0.0",
+    "@types/sass": "^1.43.1",
+    "fast-glob": "^3.2.11",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "5.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rollup": "^2.75.5",
+    "rollup-plugin-typescript2": "^0.32.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.52.1",
+    "sucrase": "3.20.2",
+    "ts-morph": "^15.0.0",
+    "typescript": "4.6.4",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@ggbond-ui/components": "workspace:^1.0.0",
+    "@ggbond-ui/theme-chalk": "workspace:^1.0.0",
+    "@ggbond-ui/utils": "workspace:^1.0.0"
+  }
+}

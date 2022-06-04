@@ -1,0 +1,4 @@
+//声明公共的sass方法
+
+@use 'config'as *; //引入所有的内容  as 没有空间的意思
+@forward "config"; //暴露成全局
